@@ -11,5 +11,10 @@ namespace VS_GitHub
         {
             MessageBox.Show("Hello World!");
         }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+            // Операции при загрузке формы
+        }
     }
 }

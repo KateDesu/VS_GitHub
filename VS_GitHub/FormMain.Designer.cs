@@ -33,13 +33,17 @@
             // 
             // buttonStart
             // 
-            buttonStart.Location = new Point(77, 53);
-            buttonStart.Margin = new Padding(5, 5, 5, 5);
+            buttonStart.BackColor = Color.FromArgb(128, 128, 255);
+            buttonStart.Dock = DockStyle.Fill;
+            buttonStart.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 204);
+            buttonStart.ForeColor = Color.White;
+            buttonStart.Location = new Point(0, 0);
+            buttonStart.Margin = new Padding(5);
             buttonStart.Name = "buttonStart";
-            buttonStart.Size = new Size(314, 333);
+            buttonStart.Size = new Size(484, 461);
             buttonStart.TabIndex = 0;
             buttonStart.Text = "Hello World!";
-            buttonStart.UseVisualStyleBackColor = true;
+            buttonStart.UseVisualStyleBackColor = false;
             buttonStart.Click += ButtonStart_Click;
             // 
             // FormMain
@@ -50,9 +54,10 @@
             ClientSize = new Size(484, 461);
             Controls.Add(buttonStart);
             Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point, 204);
-            Margin = new Padding(5, 5, 5, 5);
+            Margin = new Padding(5);
             Name = "FormMain";
             Text = "Главная форма";
+            Load += FormMain_Load;
             ResumeLayout(false);
         }
 
