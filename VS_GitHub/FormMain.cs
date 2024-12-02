@@ -17,6 +17,7 @@ namespace VS_GitHub
             // Операции при загрузке формы
             MessageBox.Show("Выполнение ПР1:");
             MessageBox.Show("Форма загружена!");
+            MessageBox.Show("Мой номер парты 1");
         }
     }
 }
