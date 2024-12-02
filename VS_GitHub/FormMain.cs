@@ -15,6 +15,9 @@ namespace VS_GitHub
         private void FormMain_Load(object sender, EventArgs e)
         {
             // Операции при загрузке формы
+            MessageBox.Show("Выполнение ПР1:");
+            MessageBox.Show("Форма загружена!");
+            MessageBox.Show("Мой номер парты 1");
         }
     }
 }
